@@ -18,10 +18,11 @@ const productsList = productsData.product;
                     <div className="card">
                                 <h1>{produto.name}</h1>
                                 <img src={`/assets/${produto.image}`}/>
-                                <p>Score: {produto.score}</p>
+                                <h3>Preço <span>R$ {produto.price} </span></h3>
+                                
                             
                                 <div className="infoCard">
-                                    <h3>Preço R$ {produto.price} </h3>
+                                <p>Score: {produto.score}</p>
                                     <button><img src="/assets/cart-icon.svg"></img>Add carrinho</button>
                                 </div>
                           
