@@ -10,32 +10,29 @@ const productsList = productsData.product;
     render(){
       return(
         <div className="cards">
-          {productsData.map((produto)=>{
-            return(
-              <div className="cardInfo" key={produto.id}>
-            
-                    
-                    <div className="card">
-                                <h1>{produto.name}</h1>
-                                <img src={`/assets/${produto.image}`}/>
-                                <h3>Preço <span>R$ {produto.price} </span></h3>
+            {productsData.map((produto)=>{
+              return(
+                  <div className="container" key={produto.id}>
+                        <div className="card">
+                              <h1>{produto.name}</h1>
+                               
+                                  <img src={`/assets/${produto.image}`}/>
                                 
-                            
+                                
+                                <h3>Preço <span>R$ {produto.price} </span></h3>
+                                    
+                                
                                 <div className="infoCard">
-                                <p>Score: {produto.score}</p>
+                                    <p>Score: {produto.score}</p>
                                     <button><img src="/assets/cart-icon.svg"></img>Add carrinho</button>
                                 </div>
-                          
-                             </div>
-                  
-                        
-                    
-              </div>
-            );
-          })
-        }
-        
-        </div>
+                              
+                        </div>
+                  </div>
+              );
+            })
+          }
+         </div>
         
       );
     }
