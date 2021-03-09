@@ -27,7 +27,7 @@ export default function Products ({addToCarrinho}) {
                     <h3>R$ <span>{item.price}</span></h3>
 
                   <button onClick={() => addToCarrinho(item)}>
-                    <img src="/assets/cart-icon.svg"/>Add no carrinho
+                    <img src="./assets/cart-icon.svg"/>Add no carrinho
                     </button>
 
 
