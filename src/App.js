@@ -47,7 +47,7 @@ const navigateTo =(proximo) =>{
     <div className="App" >
       <header>
         <button onClick={() => navigateTo(PAGE_PRODUCTS)}>Produtos </button>
-        <button onClick={() => navigateTo(PAGE_CARRINHO)}> <img src="/assets/car-icon.svg"/>Carrinho ({carrinho.length})</button>
+        <button onClick={() => navigateTo(PAGE_CARRINHO)}> <img src="./assets/car-icon.svg"/>Carrinho ({carrinho.length})</button>
       </header>
 
 
