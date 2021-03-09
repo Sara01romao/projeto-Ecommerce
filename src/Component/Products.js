@@ -20,7 +20,7 @@ export default function Products ({addToCarrinho}) {
         <div className="products">
           {dbProducts.map((item) =>(
               <div className="card" key={item.id}>
-                  <img src={`/assets/${item.image}`}/>
+                  <img src={`./assets/${item.image}`}/>
                   <h5>{item.name}</h5>
                   
 
