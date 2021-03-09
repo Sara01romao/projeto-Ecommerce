@@ -24,7 +24,7 @@ export default function Carrinho({carrinho, removeToCarrinho}) {
              
                   {carrinho.map((item) =>(
                         <div className="cardCar" key={item.id}>
-                            <img src={`/assets/${item.image}`}/>
+                            <img src={`./assets/${item.image}`}/>
                             <h5>{item.name}</h5>
                             
 
