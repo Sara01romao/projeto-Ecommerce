@@ -1,0 +1,81 @@
+
+.title{
+  padding-top: 100px;
+  margin-left:5% ;
+  border-bottom: 5px solid #4d4b4b94 ;
+  padding-bottom: 5px;
+  width: 330px;
+}
+
+.items{
+  position: relative;
+  top: 25px;
+  left: 30px;
+  color: rgb(5, 83, 146);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.containerCar{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+
+}
+
+.productsCar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 2%;
+  width: 600px;
+  border: 2px solid rgba(0, 119, 255, 0.548);
+
+}
+
+
+
+.resultado{
+ margin: 0 auto;
+  width: 350px;
+  height: 300px;
+  border: 3px solid rgba(143, 143, 143, 0.479);
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+
+
+.resultado h2{
+  margin-top: 20px;
+  color: rgba(75, 75, 75, 0.925);
+}
+
+.resultado p{
+  font-size: 20px;
+}
+
+.cardCar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cardCar button{
+  width: 150px;
+  height: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: bold;
+  background-color: rgb(172, 9, 9);
+  border: none;
+  border-radius: 5px;
+}
+
